@@ -10,6 +10,8 @@ Var
    i, opcao: inteiro
 
 Inicio
+
+   //menu cadastro
    escreval("======== Agencia de Viagem ========")
    escreval(" ")
    escreval("========   Escolha opção!  ========")
@@ -18,6 +20,7 @@ Inicio
    escreval("Para cadastrar Destino digite: 2 ")
    leia(opcao)
 
+   //cadastro de clientes ou destinos
    escolha(opcao)entao
    caso 1
       para i de 1 ate 3 faca
@@ -45,12 +48,14 @@ Inicio
 
    fimescolha
 
+   // menu consulta
    escreval("Para consultar clientes digite: 1 ")
    escreval("Para consultar Destinos digite: 2 ")
    escreval("Para sair digite X ")
    leia(opcao)
    escreval(" ")
 
+   //Consulta de clientes ou destinos
    escolha(opcao))entao
    caso 1
       para i de 1 ate 3 faca
