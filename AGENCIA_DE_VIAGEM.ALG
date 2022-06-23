@@ -21,7 +21,7 @@ Inicio
    leia(opcao)
 
    // Validar opção cadastro cliente
-   enquanto(nao (opcao = 1)faca
+   enquanto nao (opcao = 1)faca
       escreval("Erro: opção",opcao," invalida, cadastro não efetuado!")
       escreval(" ")
       escreval("Para cadastrar Cliente digite: 1 ")
@@ -29,9 +29,9 @@ Inicio
    fimEnquanto
 
    //cadastro de clientes
-   se opcao = 1 entao
+   se (opcao = 1) entao
       para i de 1 ate 3 faca
-         escreva("Digite o nome do Cliente ")
+         escreval("Digite o nome do Cliente",i)
          leia(cliente[i])
          escreval(" ")
       fimpara
@@ -43,7 +43,7 @@ Inicio
    leia(opcao)
 
    // Validar opção  cadastro destino
-   enquanto(nao (opcao = 2)faca
+   enquanto nao (opcao = 2)faca
       escreval("Erro: opção",opcao," invalida, cadastro não efetuado!")
       escreval(" ")
       escreval("Para cadastrar Destino digite: 2 ")
@@ -51,9 +51,9 @@ Inicio
    fimEnquanto
 
    //cadastro de destinos
-   se opcao = 2 entao
+   se (opcao = 2) entao
       para i de 1 ate 3 faca
-         escreval("Digite o destino do cliente ")
+         escreval("Digite o nome do Destino",i)
          leia(destino[i])
          escreval(" ")
       fimpara
